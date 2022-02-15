@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+/* .sect{
+    background-color: #26b8f5;
+    height: 1000px;
+} */
+.validation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  display: none;
+  padding-top: 200px;
+  background-color: #26b8f5;
+  height: 700px;
+}
+.validation input {
+  width: 400px;
+  margin: auto;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #061419;
+  background-color: #26b8f5;
+}
+.validation h1 {
+  color: white;
+}
+.validation p {
+  padding-right: 20%;
+  color: white;
+  padding-top: 40px;
+}
+
+.go {
+  border: 2px solid #fefefe;
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+  color: #26b8f5;
+  background-color: #fefefe;
+  transition: all 1.6s ease;
+  cursor: pointer;
+}
+.go:hover {
+  background-color: #26b8f5;
+  color: #fefefe;
+}
+
+.btn {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  background-color: #26b8f5;
+  color: white;
+  font-size: 50px;
+  padding: 40px 60px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.btn:hover {
+  box-shadow: 10px 10px 10px black;
+}
